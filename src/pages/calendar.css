@@ -1,0 +1,21 @@
+/* pages/calendar.css */
+.fc .fc-toolbar-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .fc .fc-daygrid-day-number {
+    font-size: 0.7rem;
+  }
+  .fc .fc-event {
+    font-size: 0.65rem;
+    padding: 0 2px;
+  }
+  .fc .fc-toolbar-title {
+    font-size: 1rem;
+  }
+  .fc .fc-col-header-cell {
+    font-size: 0.7rem;
+  }
+}
